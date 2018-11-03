@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black; }
+
+#social {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 2%; }
+  #social .container-fluid .row .col-md-12 .social ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0%; }
+    #social .container-fluid .row .col-md-12 .social ul li {
+      display: inline-block;
+      width: 11%;
+      height: 145px;
+      line-height: 145px;
+      margin: 5%;
+      position: relative;
+      cursor: pointer;
+      transition: all linear 1s; }
+      #social .container-fluid .row .col-md-12 .social ul li .facebook, #social .container-fluid .row .col-md-12 .social ul li .instagram, #social .container-fluid .row .col-md-12 .social ul li .twitter, #social .container-fluid .row .col-md-12 .social ul li .googlePlus, #social .container-fluid .row .col-md-12 .social ul li .shadowFirst, #social .container-fluid .row .col-md-12 .social ul li .shadowSecond, #social .container-fluid .row .col-md-12 .social ul li .shadowThird, #social .container-fluid .row .col-md-12 .social ul li .shadowFourth, #social .container-fluid .row .col-md-12 .social ul li .shadowFifth {
+        background: #3B5999;
+        top: 0%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform: rotate(-30deg) skew(25deg);
+        color: white;
+        font-size: 5ch;
+        text-align: center;
+        z-index: 5;
+        transition: all linear 0.3s; }
+      #social .container-fluid .row .col-md-12 .social ul li .facebook i, #social .container-fluid .row .col-md-12 .social ul li .instagram i, #social .container-fluid .row .col-md-12 .social ul li .twitter i, #social .container-fluid .row .col-md-12 .social ul li .googlePlus i {
+        transform: rotateY(0deg);
+        transition: all linear 0.3s; }
+      #social .container-fluid .row .col-md-12 .social ul li .shadowFirst {
+        z-index: 4;
+        top: 2%;
+        background: rgba(59, 89, 153, 0.8); }
+      #social .container-fluid .row .col-md-12 .social ul li .shadowSecond {
+        z-index: 3;
+        top: 4%;
+        background: rgba(59, 89, 153, 0.6); }
+      #social .container-fluid .row .col-md-12 .social ul li .shadowThird {
+        z-index: 2;
+        top: 6%;
+        background: rgba(59, 89, 153, 0.4); }
+      #social .container-fluid .row .col-md-12 .social ul li .shadowFourth {
+        z-index: 1;
+        top: 8%;
+        background: rgba(59, 89, 153, 0.2); }
+      #social .container-fluid .row .col-md-12 .social ul li .shadowFifth {
+        z-index: 0;
+        top: 10%;
+        background: rgba(59, 89, 153, 0.1); }
+      #social .container-fluid .row .col-md-12 .social ul li:first-child {
+        margin-left: 0%; }
+      #social .container-fluid .row .col-md-12 .social ul li:nth-child(2) .instagram {
+        background: #e54060; }
+      #social .container-fluid .row .col-md-12 .social ul li:nth-child(2) .shadowFirst {
+        background: rgba(229, 64, 96, 0.8); }
+      #social .container-fluid .row .col-md-12 .social ul li:nth-child(2) .shadowSecond {
+        background: rgba(229, 64, 96, 0.6); }
+      #social .container-fluid .row .col-md-12 .social ul li:nth-child(2) .shadowThird {
+        background: rgba(229, 64, 96, 0.4); }
+      #social .container-fluid .row .col-md-12 .social ul li:nth-child(2) .shadowFourth {
+        background: rgba(229, 64, 96, 0.2); }
+      #social .container-fluid .row .col-md-12 .social ul li:nth-child(2) .shadowFifth {
+        background: rgba(229, 64, 96, 0.1); }
+      #social .container-fluid .row .col-md-12 .social ul li:nth-child(3) .twitter {
+        background: #1da1f3; }
+      #social .container-fluid .row .col-md-12 .social ul li:nth-child(3) .shadowFirst {
+        background: rgba(29, 161, 243, 0.8); }
+      #social .container-fluid .row .col-md-12 .social ul li:nth-child(3) .shadowSecond {
+        background: rgba(29, 161, 243, 0.6); }
+      #social .container-fluid .row .col-md-12 .social ul li:nth-child(3) .shadowThird {
+        background: rgba(29, 161, 243, 0.4); }
+      #social .container-fluid .row .col-md-12 .social ul li:nth-child(3) .shadowFourth {
+        background: rgba(29, 161, 243, 0.2); }
+      #social .container-fluid .row .col-md-12 .social ul li:nth-child(3) .shadowFifth {
+        background: rgba(29, 161, 243, 0.1); }
+      #social .container-fluid .row .col-md-12 .social ul li:last-child {
+        margin-right: 0%; }
+        #social .container-fluid .row .col-md-12 .social ul li:last-child .googlePlus {
+          background: #d64a39; }
+        #social .container-fluid .row .col-md-12 .social ul li:last-child .shadowFirst {
+          background: rgba(214, 74, 57, 0.8); }
+        #social .container-fluid .row .col-md-12 .social ul li:last-child .shadowSecond {
+          background: rgba(214, 74, 57, 0.6); }
+        #social .container-fluid .row .col-md-12 .social ul li:last-child .shadowThird {
+          background: rgba(214, 74, 57, 0.4); }
+        #social .container-fluid .row .col-md-12 .social ul li:last-child .shadowFourth {
+          background: rgba(214, 74, 57, 0.2); }
+        #social .container-fluid .row .col-md-12 .social ul li:last-child .shadowFifth {
+          background: rgba(214, 74, 57, 0.1); }
+      #social .container-fluid .row .col-md-12 .social ul li:hover .facebook, #social .container-fluid .row .col-md-12 .social ul li:hover .twitter, #social .container-fluid .row .col-md-12 .social ul li:hover .instagram, #social .container-fluid .row .col-md-12 .social ul li:hover .googlePlus {
+        top: -50%; }
+        #social .container-fluid .row .col-md-12 .social ul li:hover .facebook i, #social .container-fluid .row .col-md-12 .social ul li:hover .twitter i, #social .container-fluid .row .col-md-12 .social ul li:hover .instagram i, #social .container-fluid .row .col-md-12 .social ul li:hover .googlePlus i {
+          transform: rotateY(179deg); }
+      #social .container-fluid .row .col-md-12 .social ul li:hover .shadowFirst {
+        top: -40%; }
+      #social .container-fluid .row .col-md-12 .social ul li:hover .shadowSecond {
+        top: -30%; }
+      #social .container-fluid .row .col-md-12 .social ul li:hover .shadowThird {
+        top: -20%; }
+      #social .container-fluid .row .col-md-12 .social ul li:hover .shadowFourth {
+        top: -10%; }
+      #social .container-fluid .row .col-md-12 .social ul li:hover .shadowFifth {
+        top: 0%; }
+  #social .mySignature {
+    position: absolute;
+    bottom: -50%;
+    right: 0%;
+    width: 15%;
+    height: 150px; }
+    #social .mySignature img {
+      width: 100%;
+      height: 100%; }
+
+/*# sourceMappingURL=social.css.map */
